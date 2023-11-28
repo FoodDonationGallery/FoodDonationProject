@@ -238,7 +238,7 @@ Lanka. </p>
         <div class="swiper-wrapper wrapper">
 
             <div class="swiper-slide box">
-                <img src="images/pic-1.png" alt="">
+                <img src="images/p44.jpg" alt="">
                 <p>So happy with this.. received really quick. Thanks so much.</p>
                 <h3>Amila Bandara</h3>
                 <div class="stars">
@@ -250,7 +250,7 @@ Lanka. </p>
             </div>
 
             <div class="swiper-slide box">
-                <img src="images/pic-2.png" alt="">
+                <img src="images/p22.jpg" alt="">
                 <p> Fast delivery. Looks awesome. Would buy from seller again.</p>
                 <h3>Natasha Pathirana</h3>
                 <div class="stars">
@@ -263,7 +263,7 @@ Lanka. </p>
             </div>
 
             <div class="swiper-slide box">
-                <img src="images/pic-3.png" alt="">
+                <img src="images/p33.jpg" alt="">
                 <p>Great description of item. Like new. Very prompt as well.</p>
                 <h3>Naveen Perera</h3>
                 <div class="stars">
@@ -275,7 +275,7 @@ Lanka. </p>
             </div>
 
             <div class="swiper-slide box">
-                <img src="images/pic-4.png" alt="">
+                <img src="images/p11.jpg" alt="">
                 <p>As described, good quality, arrived quickly, recommended seller.</p>
                 <h3>Amali Gunasekara</h3>
                 <div class="stars">
