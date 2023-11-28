@@ -14,12 +14,13 @@
     align-items: center;
     padding:25px;
     min-height: 80vh;
+    background: linear-gradient(90deg, #f5f5f5 60%, #f5f5f5 40.1%);
   }
   
   .container form{
     padding:20px;
     width:700px;
-    background: #eae7e7;
+    background: #f6f4f4;
     box-shadow: 0 5px 10px rgba(3, 0, 0, 0.248);
   }
   
