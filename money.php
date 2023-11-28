@@ -102,37 +102,37 @@ if(isset($_POST['send'])){
 
     <div class="sch-box">
         <h3>Rs. 500</h3>
-        <a href="#" class="sch-btn">Donate Now</a>
+        <a href="moneyCheckout.php" class="sch-btn">Donate Now</a>
     </div>
 
     <div class="sch-box">
         <h3>Rs. 1000</h3>
-        <a href="#" class="sch-btn">Donate Now</a>
+        <a href="moneyCheckout.php" class="sch-btn">Donate Now</a>
     </div>
 
     <div class="sch-box">
         <h3>Rs. 2000</h3>
-        <a href="#" class="sch-btn">Donate Now</a>
+        <a href="moneyCheckout.php" class="sch-btn">Donate Now</a>
     </div>
 
     <div class="sch-box">
         <h3>Rs. 5000</h3>
-        <a href="#" class="sch-btn">Donate Now</a>
+        <a href="moneyCheckout.php" class="sch-btn">Donate Now</a>
     </div>
 
     <div class="sch-box">
         <h3>Rs. 10000</h3>
-        <a href="#" class="sch-btn">Donate Now</a>
+        <a href="moneyCheckout.php" class="sch-btn">Donate Now</a>
     </div>
 
     <div class="sch-box">
         <h3>Rs. 20000</h3>
-        <a href="#" class="sch-btn">Donate Now</a>
+        <a href="moneyCheckout.php" class="sch-btn">Donate Now</a>
     </div>
 
     <div class="sch-box">
         <h3>Rs. 50000</h3>
-        <a href="#" class="sch-btn">Donate Now</a>
+        <a href="moneyCheckout.php" class="sch-btn">Donate Now</a>
     </div>
 
 
