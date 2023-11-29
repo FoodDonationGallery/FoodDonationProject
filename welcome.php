@@ -97,8 +97,7 @@
           <div class="card-content">
             <h1 class="card-header">Food & Money Donate</h1>
             <p class="card-text">
-            You can donate money or foods by this page. To donate foods, you can choose foods by our website, or you can directly donate foods as you wish
-and to donate money, you can donate via website or contacting us. 
+            You can donate money or foods by this page. To donate foods, you can choose foods by our website, or you can directly donate foods as you wish and to donate money, you can donate via website or contacting us. 
             </p>
           </div>
         </div>
