@@ -23,15 +23,16 @@ if(isset($_SESSION['user_id'])){
           $message[] = 'Confirm Password not matched!';
        }else{
           mysqli_query($conn, "UPDATE `users` SET password = '$confirm_pass' WHERE id = '$user_id'") or die('query failed');
-          $message[] = 'Password Updated Successfully!';
+          $message[] = 'Password Reset Successfully!';
           header('location:login.php');
        }
     }
  }
 
- if (isset($_POST['submit'])) {
-   echo "<script>alert('Password Reset Successfully!')</script>";
-}
+//  if (isset($_POST['submit'])) {
+//    echo "<script>alert('Password Reset Successfully!')</script>";
+//    header('location:login.php');
+// }
  
  
 ?>
