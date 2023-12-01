@@ -102,6 +102,16 @@ section{
    text-decoration: underline;
 }
 
+.row_us form span{
+   text-align: left;
+   display: block;
+   margin-top: 15px;
+   font-size: 17px;
+   font-weight: bold;
+   color:black;
+
+}
+
 .message{
    position: sticky;
    top:0;
