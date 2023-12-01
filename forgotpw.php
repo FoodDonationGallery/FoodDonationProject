@@ -28,6 +28,10 @@ if(isset($_SESSION['user_id'])){
        }
     }
  }
+
+ if (isset($_POST['submit'])) {
+   echo "<script>alert('Password Reset Successfully!')</script>";
+}
  
  
 ?>

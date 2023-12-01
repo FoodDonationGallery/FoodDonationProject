@@ -28,6 +28,10 @@ if(isset($_POST['submit'])){
 
 }
 
+if (isset($_POST['submit'])) {
+   echo "<script>alert('Registered Successfully!')</script>";
+}
+
 ?>
 
 <!DOCTYPE html>

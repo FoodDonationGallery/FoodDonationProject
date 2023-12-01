@@ -36,6 +36,10 @@ if(isset($_POST['update_profile'])){
    }
 }
 
+if (isset($_POST['update_profile'])) {
+   echo "<script>alert('Update Profile Successfully!')</script>";
+}
+
  
 ?>
 
