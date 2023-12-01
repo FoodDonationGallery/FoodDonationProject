@@ -47,6 +47,15 @@ if(isset($_POST['submit'])){
    <!-- custom css file link  -->
    <link rel="stylesheet" href="./css/login.css">
 
+   <style>
+      .forgot{
+         font-size: 1.4rem;
+         margin-top: 15px;
+         margin-bottom: -20px;
+         color: #0000FF;
+      }
+   </style>
+
 </head>
 <body>
 
@@ -77,6 +86,7 @@ if(isset($message)){
       <input type="email" name="email" placeholder="Enter Your Email" required class="box">
       <input type="password" name="password" placeholder="Enter Your Password" required class="box">
       <input type="submit" value="Login Now" name="submit" class="btn">
+      <h4 class="forgot"><a href="forgotpw.php">Forgot Password?</a></h4>
       <p>Don't have an account? <a href="register.php">Register Now</a></p>
    </form>
 
