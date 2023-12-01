@@ -45,6 +45,38 @@ if(isset($_POST['submit'])){
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/login.css">
+   <!--- Password validation Css code ---->
+   <style>
+      #message{
+         display: none;
+         background: #f1f1f1;
+         color: #000;
+         position: relative;
+         padding:20px;
+         margin-top: 10px;
+      }
+      #message p{
+         padding: 10px 35px;
+         font-size: 18px;
+      }
+      .valid{
+         color: green;
+      }
+      .valid:before{
+         position: relative;
+         left:-3px;
+         content: "✔";
+      }
+      .invalid{
+         color: red;
+      }
+      .invalid:before{
+         position: relative;
+         left: -35px;
+         content:"✖";
+      }
+   </style>
+
 
 </head>
 <body>
@@ -86,13 +118,11 @@ if(isset($message)){
       <input type="submit" name="submit" value="Register Now" class="btn">
       <p>Already have an account? <a href="login.php">Login Now</a></p>
    </form>
-
-</div>
 <!--Validation msg box-->
 <div id="message">
    <h3> Password must contain the following:</h3>
-   <p id="letter" class="invalid">A <b>lowercas</b> letter</p>
-   <p id="capital" class="invalid">A<b>Capital Uppercase</b> letter</p>
+   <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+   <p id="capital" class="invalid">A <b>Uppercase</b> letter</p>
    <p id="number" class="invalid">A <b>number</b></p>
    <p id="length" class="invalid">Minimum <b>8 characters</b></p>
 
