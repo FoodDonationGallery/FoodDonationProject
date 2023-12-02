@@ -27,7 +27,7 @@ include 'connect.php';
 <body>
 
     <div class="headers">
-    <a href="#" class="logo">
+    <a href="admin_home.php" class="logo">
         <div class="lo">
             <img src="img/logo.jpeg" style="width: 100px; height:65px">
         </div> Food Donation Gallery</a>
