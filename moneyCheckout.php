@@ -36,7 +36,7 @@ if (isset($_POST['order_btn'])) {
 <body>
    
 <div class="headers">
-        <a href="home.php" class="logo">
+        <a href="home." class="logo">
         <div class="lo">
             <img src="img/logo.jpeg" style="width: 100px; height:65px">
         </div> Food Donation Gallery</a>
@@ -52,7 +52,7 @@ if (isset($_POST['order_btn'])) {
             <i class="fas fa-bars" id="menu-bars"></i>
             <i class="fas fa-search" id="search-icon"></i>
             <a href="profile.php" class="fa-solid fa-user"></a>
-            <a href="welcome.php" class="fa-solid fa-user-xmark"></a>
+            <a href="logout.php" class="fa-solid fa-user-xmark"></a>
         </div>
     
     </div>
