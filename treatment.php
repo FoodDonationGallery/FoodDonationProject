@@ -1,3 +1,34 @@
+<?php
+
+include 'connect.php';
+
+session_start();
+
+$user_id = $_SESSION['user_id'];
+
+if(!isset($user_id)){
+   header('location:login.php');
+}
+
+if(isset($_POST['send'])){
+
+   $name = mysqli_real_escape_string($conn, $_POST['name']);
+   $email = mysqli_real_escape_string($conn, $_POST['email']);
+   $number = $_POST['number'];
+   $msg = mysqli_real_escape_string($conn, $_POST['message']);
+
+   $select_message = mysqli_query($conn, "SELECT * FROM `treatment` WHERE name = '$name' AND email = '$email' AND number = '$number' AND message = '$msg'") or die('query failed');
+
+   if(mysqli_num_rows($select_message) > 0){
+      $message[] = 'Message Sent Already!';
+   }else{
+      mysqli_query($conn, "INSERT INTO `treatment`(user_id, name, email, number, message) VALUES('$user_id', '$name', '$email', '$number', '$msg')") or die('query failed');
+      $message[] = 'Message Sent Successfully!';
+   }
+
+}
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -196,8 +227,8 @@
       <h3>How can we help for you!!</h3>
       <input type="text" name="name" maxlength="50" class="box" placeholder="Enter Your Name" required>
       <input type="email" name="email" maxlength="50" class="box" placeholder="Enter Your Email" required>
-      <input type="number" name="number" min="0" max="9999999999" class="box" placeholder="Enter Your Number" required maxlength="10">
-      <textarea name="msg" class="box" required placeholder="Enter Your Message" maxlength="500" cols="30" rows="10"></textarea>
+      <input type="number" name="number" min="0" max="9999999999" class="box" placeholder="Enter Mobile Number" required maxlength="10">
+      <textarea name="message" class="box" required placeholder="Enter Your Message" maxlength="500" cols="30" rows="10"></textarea>
       <input type="submit" value="Send Message" name="send" class="btn">
    </form>
 
