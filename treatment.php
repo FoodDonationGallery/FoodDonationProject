@@ -56,7 +56,7 @@ if(isset($_POST['send'])){
 <body>
 
     <div class="headers">
-    <a href="#" class="logo">
+    <a href="home.php" class="logo">
         <div class="lo">
             <img src="img/logo.jpeg" style="width: 100px; height:65px">
         </div> Food Donation Gallery</a>
