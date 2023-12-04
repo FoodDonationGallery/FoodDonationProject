@@ -80,7 +80,7 @@ if(isset($_SESSION['user_id'])){
                             <img src="images/p1.jpg" alt="pic 1" width="220" height="250">
 
                             <h1>Piyumi Paranavithanage</h1>
-                            <p>Role: Leader of this project</p>
+                            <!-- <p>Role: Leader of this project</p> -->
                         </div>
                     </div>
                 </div>
