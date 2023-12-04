@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/welcome.css">
     <script src="https://kit.fontawesome.com/4801a7dc21.js" crossorigin="anonymous"></script>
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 </head>
 <body>
 
 
     <div class="headers">
-        <a href="welcome.php" class="logo">
+        <a href="home.php" class="logo">
         <div class="lo">
             <img src="img/logo.jpeg" style="width: 100px; height:65px">
         </div> Food Donation Gallery</a>

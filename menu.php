@@ -73,7 +73,7 @@ if(isset($_POST['add_to_cart'])){
             <i class="fas fa-search" id="search-icon"></i>
             <a href="menu_cart.php" class="fa-solid fa-cart-shopping" id="search-icon"><span>(<?php echo $cart_rows_number; ?>)</span></a>
             <a href="profile.php" class="fa-solid fa-user"></a>
-            <a href="welcome.php" class="fa-solid fa-user-xmark"></a>
+            <a href="logout.php" class="fa-solid fa-user-xmark"></a>
         </div>
     
     </div>
